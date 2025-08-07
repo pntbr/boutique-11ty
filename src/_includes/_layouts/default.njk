@@ -33,6 +33,8 @@
             {{ css | cssmin | safe }}
         </style>
 
+        <link rel="stylesheet" href="{{ settings.DATA_URL }}css/styles.css">
+
         <meta
             name="description"
             content="{{ meta_descr or i18n.meta.description[page.lang] }}"
