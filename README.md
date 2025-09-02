@@ -6,7 +6,7 @@ Une petite boutique en ligne construite avec [11ty](https://www.11ty.dev/).
 
 ## Objectif
 
-Créer une boutique simple et minimaliste pour vendre des objets ou des prestations sans complexité.
+Créer une boutique simple et minimaliste pour vendre des objets ou des prestations.
 
 ## Les fonctionnalités
 
@@ -117,7 +117,7 @@ Créer une boutique simple et minimaliste pour vendre des objets ou des prestati
 Pour garder les choses simples, nous essayons d'utiliser très peu d'outils.
 
 - [Eleventy](https://www.11ty.dev/), un [générateur de site statique](https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9rateur_de_site_statique)
-- [Splide.js](https://splidejs.com/), une bibliothèque légère pour créer des carrousels accessibles et élégants, utilisée pour la mise en œuvre des sliders de la boutique
+- [Splide.js](https://splidejs.com/), une bibliothèque légère pour créer des carrousels, utilisée pour la mise en œuvre des sliders de la boutique
 - [js-yaml](https://github.com/nodeca/js-yaml) pour utiliser le format [yaml](https://fr.wikipedia.org/wiki/YAML) plus intuitif pour les fichiers de configuration
 - [sharp](https://sharp.pixelplumbing.com/), une librairie légère pour retailler les images
 - [terser](https://github.com/terser/terser), pour minifier les fichier `js` avec le plugin 11ty
