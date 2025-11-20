@@ -45,8 +45,26 @@ document.addEventListener('DOMContentLoaded', async () => {
             cart.push(product)
             storage.setCart(cart)
             updateCartLink()
+            animateFloatingCart()
         }
     }
+
+function animateFloatingCart() {
+    const cartFloatLink = document.getElementById('floating-cart')
+    if (!cartFloatLink) return
+
+    // reset pour rejouer l'animation
+    cartFloatLink.classList.remove('flash', 'show-badge')
+    void cartFloatLink.offsetWidth
+
+    // déclenche l'effet
+    cartFloatLink.classList.add('flash', 'show-badge')
+
+    // retire le badge après 1 seconde
+    setTimeout(() => {
+        cartFloatLink.classList.remove('show-badge')
+    }, 1000)
+}
 
     function disableButton(button) {
         button.classList.add('disabled')
